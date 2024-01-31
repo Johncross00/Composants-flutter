@@ -114,7 +114,7 @@ class ShowIconAndLabel extends StatelessWidget {
         Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.local_hospital_rounded, color: Colors.red.withOpacity(0.6), size: 50,),
+            Icon(Icons.local_hospital_rounded, color: Colors.red.withOpacity(0.5), size: 50,),
             const Text('Hospital', style: TextStyle(color: Colors.black, fontSize: 17),)
           ],
         ),Column(
