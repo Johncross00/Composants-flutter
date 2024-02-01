@@ -1,3 +1,4 @@
+import 'package:composant/authentication_page.dart';
 import 'package:composant/exemple2.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Exemple2(),
+      home: AuthenticationPage(),
     );
   }
 }
