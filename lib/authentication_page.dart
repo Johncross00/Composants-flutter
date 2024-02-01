@@ -10,7 +10,7 @@ class AuthenticationPage extends StatelessWidget {
         width: double.infinity,
         decoration: BoxDecoration(
           gradient: LinearGradient(
-              colors: [Colors.blue.shade100, Colors.blue.shade400, Colors.blue.shade900],
+              colors: [Colors.black, Colors.blue.shade400, Colors.blue.shade900],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter
         ),
