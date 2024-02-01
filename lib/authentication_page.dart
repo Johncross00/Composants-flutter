@@ -1,4 +1,5 @@
 import 'package:composant/sections/logo_section.dart';
+import 'package:composant/sections/title_section.dart';
 import 'package:flutter/material.dart';
 class AuthenticationPage extends StatelessWidget {
   const AuthenticationPage({super.key});
@@ -18,6 +19,7 @@ class AuthenticationPage extends StatelessWidget {
         child: Column(
           children: [
             LogoSection(),
+            TitleSection()
           ],
         ),
     )
